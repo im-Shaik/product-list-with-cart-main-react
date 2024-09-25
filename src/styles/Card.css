@@ -1,0 +1,28 @@
+.hover-and-active:hover {
+  background-color: rgb(224, 177, 90) !important;
+  color: white !important;
+}
+
+@media only screen and (max-width: 1284px) {
+  .card-wrapper {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .card-wrapper {
+    text-align: center;
+    grid-template-columns: 1fr 1fr !important;
+    justify-content: space-between !important;
+  }
+  .card {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .card-wrapper {
+    text-align: center !important;
+    grid-template-columns: 1fr !important;
+  }
+}

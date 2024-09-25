@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1440px) {
+  .cart-container {
+    transition: all 0.3s;
+    right: 10px !important;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .cart-container {
+    position: static !important;
+  }
+}
